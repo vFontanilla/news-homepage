@@ -10,7 +10,7 @@ const HeroPage = () => {
       <div className="md:flex md:justify-start ">
         <div>
           <img
-            className="mt-3 w-[80%] hidden md:block"
+            className="mt-3 w-[72%] hidden md:block"
             src={mainbg}
             alt="Main Background"
           />
@@ -21,11 +21,11 @@ const HeroPage = () => {
             height={800}
           />
           <div className="pt-3 md:flex md:flex-row  md:justify-center md:items-center ">
-            <h1 className="text-[40px] font-[800] md:w-[50%] leading-10 md:leading-tight md:ml-[-10%] inter800">
+            <h1 className="text-[40px] font-[800] md:w-[50%] leading-10 md:leading-tight inter800">
               The Bright <br /> Future of Web <br /> 3.0?
             </h1>
 
-            <div className="md:flex md:flex-col md:justify-end md:w-[55%] md:mr-[-15%]">
+            <div className="md:flex md:flex-col md:justify-end md:w-[55%] md:mr-[5%]">
               <div className="w-[50%]">
                 <p className="text-sm text-gray-600 mt-2 leading-6">
                   We dive into the next evolution of the web that claims to put
@@ -42,7 +42,7 @@ const HeroPage = () => {
 
         {/* Black Box */}
 
-        <div className="bg-[#00001A] my-5  md:mt-3 md:ml-[-15%]   md:my-0 p-3 ">
+        <div className="bg-[#00001A] my-5  md:mt-3 md:ml-[-25%]  w-[20%]  md:my-0 p-3 md:p-5 ">
           <h1 className="text-[#E9AA52] text-[32px] pb-5 inter">New </h1>
           <div className="">
             <h1 className="font-bold text-white text-xl py-2">
@@ -52,7 +52,7 @@ const HeroPage = () => {
               Will hydrogen-fueled cars ever catch up to EVs?
             </p>
           </div>
-          <hr className="bg-[#5E607A] my-4 md:my-[23px]" />
+          <hr className="bg-[#5E607A] my-4 md:my-[38px]" />
 
           {/* ikaduha */}
           <div className="">
@@ -64,7 +64,7 @@ const HeroPage = () => {
               generation?
             </p>
           </div>
-          <hr className="bg-[#5E607A] my-4 md:my-[23px]" />
+          <hr className="bg-[#5E607A] my-4 md:my-[38px]" />
 
           {/**ikatulo */}
           <div className="pb-4">
