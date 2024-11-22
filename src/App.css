@@ -1,0 +1,114 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem; /* Adds space between each link */
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff; /* Customize the text color */
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #0073e6; /* Customize hover color */
+}
+
+.content {
+  display: flex;
+  margin-top: 20px;
+}
+
+.main-article {
+  display: flex;
+  flex-direction: column; /* Stack items vertically on mobile */
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 40px 0;
+}
+
+.main-article img {
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.main-article h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 56px;
+  font-weight: 800;
+  margin: 0;
+  color: #ffffff;
+  width: 350px;
+  line-height: 56px;
+}
+
+.main-article p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.5;
+  margin-left: 20px;
+}
+
+.main-article button {
+  background-color: #FF5F5F; /* Read More button color */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.main-article button:hover {
+  background-color: #E04E4E; /* Hover effect */
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.article-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.grid-item {
+  flex: 1;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
