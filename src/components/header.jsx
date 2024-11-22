@@ -21,7 +21,7 @@ const Headerpage = () => {
           onClick={toggleSidebar}
         />
 
-        <div className="hidden md:flex space-x-4 mr-16">
+        <div className="hidden md:flex space-x-4  lg:mr-28">
           <button className="py-1 px-4  nav  text-left">Home</button>
           <button className="py-1 px-4 nav  text-left">New</button>
           <button className="py-1 px-4 nav  text-left">Popular</button>
