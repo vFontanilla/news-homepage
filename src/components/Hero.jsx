@@ -1,8 +1,8 @@
-import mobilebg from "/news-homepage/src/images/mobilebg.png";
-import mainbg from "/news-homepage/src/images/mainbg.jpg";
-import img1 from "/news-homepage/src/images/Bitmap.jpg";
-import img2 from "/news-homepage/src/images/Bitmap-1.jpg";
-import img3 from "/news-homepage/src/images/Bitmap-2.jpg";
+import mobilebg from "../images/mobilebg.png";
+import mainbg from "../images/mainbg.jpg";
+import img1 from "../images/Bitmap.jpg";
+import img2 from "../images/Bitmap-1.jpg";
+import img3 from "../images/Bitmap-2.jpg";
 
 const HeroPage = () => {
   return (
