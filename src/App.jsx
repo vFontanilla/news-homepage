@@ -1,19 +1,12 @@
-import React from 'react';
-import Header from './components/header';
-import MainArticle from './components/mainArticle';
-import Sidebar from './components/sidebar';
-import ArticleGrid from './components/articleGrid';
-import './App.css';
+import React from "react";
+import Headerpage from "./components/header";
+import HeroPage from "./components/Hero";
 
 function App() {
   return (
-    <div className="app">
-      <Header />
-      <div className="content">
-        <MainArticle />
-        <Sidebar />
-      </div>
-      <ArticleGrid />
+    <div className="px-6 py-5 h-screen">
+      <Headerpage />
+      <HeroPage />
     </div>
   );
 }
