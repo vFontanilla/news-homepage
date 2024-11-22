@@ -7,8 +7,8 @@ import img3 from "../images/Bitmap-2.jpg";
 const HeroPage = () => {
   return (
     <>
-      <div className="md:flex  ">
-        <div className="md:w-[60%]">
+      <div className="md:flex md:justify-between  md:px-10 ">
+        <div className="md:w-[70%]">
           <img
             className="mt-3 w-full hidden md:block"
             src={mainbg}
@@ -25,11 +25,11 @@ const HeroPage = () => {
               The Bright <br /> Future of Web <br /> 3.0?
             </h1>
 
-            <div className=" my-3 md:my-0  md:w-[50%] ">
-              <p className="text-sm text-gray-600 mt-2 leading-6">
-                We dive into the next evolution of the web that claims to put
-                the power of platforms back into the hands of the people. But is
-                it really fulfilling its promise?
+            <div className=" my-3 md:my-0  md:w-[50%]  ">
+              <p className="text-sm text-gray-600 mt-2 leading-6 ">
+                We dive into the next evolution of the web that <br /> claims to
+                put the power of platforms back into <br /> the hands of the
+                people. But is it really <br /> fulfilling its promise?
               </p>
               <button className="bg-[#F15D51] inter mt-4 md:mt-6 font-bold md:w-[200px] tracking-widest px-5 md:px-4 md:py-2 py-3 text-[#00001A] hover">
                 Read More
@@ -79,7 +79,7 @@ const HeroPage = () => {
 
       {/* katong tulo ka pic sa ubos lain */}
 
-      <div className="pt-8 md:w-full md:flex md:flex-row md:pt-10 md:justify-around md:items-start">
+      <div className="pt-8 md:px-10 md:w-full md:flex md:flex-row md:pt-10 md:justify-around md:items-start">
         {/* First Item */}
         <div className="flex w-full mb-4">
           <img className="mt-3" src={img1} alt="Logo" width={100} />

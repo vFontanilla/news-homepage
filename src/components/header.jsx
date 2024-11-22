@@ -13,15 +13,15 @@ const Headerpage = () => {
 
   return (
     <div>
-      <div className="flex justify-between items-center p-4 bg-white">
-        <img src={W} alt="Logo" width={40} />
+      <div className="flex justify-between items-center md:px-6   bg-white">
+        <img src={W} alt="Logo" width={40} className="ml-[1%]" />
 
         <AlignJustify
           className="cursor-pointer md:hidden"
           onClick={toggleSidebar}
         />
 
-        <div className="hidden md:flex space-x-4  lg:mr-28">
+        <div className="hidden md:flex ">
           <button className="py-1 px-4  nav  text-left">Home</button>
           <button className="py-1 px-4 nav  text-left">New</button>
           <button className="py-1 px-4 nav  text-left">Popular</button>
