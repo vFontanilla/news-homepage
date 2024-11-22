@@ -1,5 +1,5 @@
 import React from "react";
-import Headerpage from "./components/header";
+import Headerpage from "./components/Header";
 import HeroPage from "./components/Hero";
 
 function App() {
