@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "react-scripts build",
+    "build": "build",
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "react-scripts start"
@@ -14,8 +14,7 @@
     "lucide-react": "^0.460.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1",
-    "vercel": "^39.1.1"
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
