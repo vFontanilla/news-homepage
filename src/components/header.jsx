@@ -1,7 +1,8 @@
 import { AlignJustify } from "lucide-react";
 import { X } from "lucide-react"; // Importing the X (close) icon
 import { useState } from "react";
-import W from "/news-homepage/src/images/W..svg";
+// import W from "/news-homepage/src/images/W..svg";
+import W from "../images/W..svg";
 
 const Headerpage = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
