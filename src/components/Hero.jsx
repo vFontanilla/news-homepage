@@ -42,7 +42,7 @@ const HeroPage = () => {
 
         {/* Black Box */}
 
-        <div className="bg-[#00001A] my-5  md:mt-3 md:ml-[-25%]  w-[20%]  md:my-0 p-3 md:p-5 ">
+        <div className="bg-[#00001A] my-5  md:mt-3 md:ml-[-25%]   md:w-[20%]  md:my-0 p-3 md:p-5 ">
           <h1 className="text-[#E9AA52] text-[32px] pb-5 inter">New </h1>
           <div className="">
             <h1 className="font-bold text-white text-xl py-2">
