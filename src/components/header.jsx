@@ -1,7 +1,6 @@
 import { AlignJustify } from "lucide-react";
 import { X } from "lucide-react"; // Importing the X (close) icon
 import { useState } from "react";
-import mainbg from "/news-homepage/src/images/mainbg.jpg";
 import W from "/news-homepage/src/images/W..svg";
 
 const Headerpage = () => {

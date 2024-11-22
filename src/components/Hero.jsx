@@ -67,7 +67,7 @@ const HeroPage = () => {
           <hr className="bg-[#5E607A] my-4 md:my-[23px]" />
 
           {/**ikatulo */}
-          <div className="">
+          <div className="pb-4">
             <h1 className="font-bold text-white text-xl py-2">
               Is VC Funding Drying Up?
             </h1>
@@ -81,7 +81,7 @@ const HeroPage = () => {
 
       {/* katong tulo ka pic sa ubos lain */}
 
-      <div className="pt-8 md:w-full md:flex md:flex-row  md:justify-around md:items-start">
+      <div className="pt-8 md:w-full md:flex md:flex-row md:pt-10 md:justify-around md:items-start">
         {/* First Item */}
         <div className="flex w-full mb-4">
           <img className="mt-3" src={img1} alt="Logo" width={100} />
@@ -90,7 +90,7 @@ const HeroPage = () => {
               <h1 className="text-[#F15D51] inter text-[32px]">01</h1>
               <h1 className="inter800 text-[18px]">Reviving Retro PCs</h1>
             </div>
-            <p className="inter400 text-[13px] md:w-[200px] text-[#5E607A]">
+            <p className="inter400 text-[13px] md:w-[200px]  text-[#5E607A]">
               What happens when old PCs are given modern upgrades?
             </p>
           </div>
@@ -111,7 +111,7 @@ const HeroPage = () => {
         </div>
 
         {/* Third Item */}
-        <div className="flex w-full">
+        <div className="flex w-full pb-4">
           <img className="mt-3" src={img3} alt="Logo" width={100} />
           <div className="pl-4 flex flex-col justify-between">
             <div>
